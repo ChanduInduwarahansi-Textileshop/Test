@@ -26,7 +26,22 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "?type=fiction&limit=1",
+					"query": [
+						{
+							"key": "type",
+							"value": "fiction",
+							"type": "text"
+						},
+						{
+							"key": "limit",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
